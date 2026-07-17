@@ -5983,6 +5983,7 @@ SetEnvIfNoCase Referer ~*timecrimea\.ru spam_ref
 SetEnvIfNoCase Referer ~*timer4web\.com spam_ref
 SetEnvIfNoCase Referer ~*timetorelax\.biz spam_ref
 SetEnvIfNoCase Referer ~*timhost\.ru spam_ref
+SetEnvIfNoCase Referer ~*timpi\.io spam_ref
 SetEnvIfNoCase Referer ~*titan\-ads\.life spam_ref
 SetEnvIfNoCase Referer ~*titan\-cloud\.life spam_ref
 SetEnvIfNoCase Referer ~*titangel\-vietnam\.com spam_ref

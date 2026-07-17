@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2026.07.2661
-### Updated: Thu Jul  9 12:32:07 UTC 2026
-### Bad Bot Count: 695
+### Version: V3.2026.07.2662
+### Updated: Fri Jul 17 11:16:40 UTC 2026
+### Bad Bot Count: 697
 ###################################################
 ### Version Information ##
 
@@ -1017,6 +1017,8 @@ User-agent: Thumbor
 Disallow:/
 User-agent: TightTwatBot
 Disallow:/
+User-agent: Timpibot
+Disallow:/
 User-agent: TinyTestBot
 Disallow:/
 User-agent: Titan
@@ -1368,6 +1370,8 @@ Disallow:/
 User-agent: sogouspider
 Disallow:/
 User-agent: sp_auditbot
+Disallow:/
+User-agent: spy4x-domain-scanner
 Disallow:/
 User-agent: spyfu
 Disallow:/

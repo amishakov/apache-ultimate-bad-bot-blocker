@@ -5,9 +5,9 @@
 # https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
 
 ### Version Information #
-### Version: V3.2026.07.2661
-### Bad Referrer Count: 7113
-### Bad Bot Count: 695
+### Version: V3.2026.07.2662
+### Bad Referrer Count: 7114
+### Bad Bot Count: 697
 ### Version Information ##
 
 <IfModule mod_setenvif.c>
@@ -514,6 +514,7 @@ SetEnvIfNoCase User-Agent \bTheNomad\b spambot=yes
 SetEnvIfNoCase User-Agent \bThe\ Intraformant\b spambot=yes
 SetEnvIfNoCase User-Agent \bThumbor\b spambot=yes
 SetEnvIfNoCase User-Agent \bTightTwatBot\b spambot=yes
+SetEnvIfNoCase User-Agent \bTimpibot\b spambot=yes
 SetEnvIfNoCase User-Agent \bTinyTestBot\b spambot=yes
 SetEnvIfNoCase User-Agent \bTitan\b spambot=yes
 SetEnvIfNoCase User-Agent \bToata\b spambot=yes
@@ -690,6 +691,7 @@ SetEnvIfNoCase User-Agent \bsiteripz\b spambot=yes
 SetEnvIfNoCase User-Agent \bsmart\-seo\-tools\\\.sbs\b spambot=yes
 SetEnvIfNoCase User-Agent \bsogouspider\b spambot=yes
 SetEnvIfNoCase User-Agent \bsp\_auditbot\b spambot=yes
+SetEnvIfNoCase User-Agent \bspy4x\-domain\-scanner\b spambot=yes
 SetEnvIfNoCase User-Agent \bspyfu\b spambot=yes
 SetEnvIfNoCase User-Agent \bsysscan\b spambot=yes
 SetEnvIfNoCase User-Agent \btAkeOut\b spambot=yes
@@ -6693,6 +6695,7 @@ SetEnvIfNoCase Referer timecrimea\.ru spambot=yes
 SetEnvIfNoCase Referer timer4web\.com spambot=yes
 SetEnvIfNoCase Referer timetorelax\.biz spambot=yes
 SetEnvIfNoCase Referer timhost\.ru spambot=yes
+SetEnvIfNoCase Referer timpi\.io spambot=yes
 SetEnvIfNoCase Referer titan\-ads\.life spambot=yes
 SetEnvIfNoCase Referer titan\-cloud\.life spambot=yes
 SetEnvIfNoCase Referer titangel\-vietnam\.com spambot=yes
